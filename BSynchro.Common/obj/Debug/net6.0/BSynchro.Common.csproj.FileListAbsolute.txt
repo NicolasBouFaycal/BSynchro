@@ -1,0 +1,14 @@
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Common\bin\Debug\net6.0\BSynchro.Common.deps.json
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Common\bin\Debug\net6.0\BSynchro.Common.dll
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Common\bin\Debug\net6.0\BSynchro.Common.pdb
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Common\obj\Debug\net6.0\BSynchro.Common.csproj.AssemblyReference.cache
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Common\obj\Debug\net6.0\BSynchro.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Common\obj\Debug\net6.0\BSynchro.Common.AssemblyInfoInputs.cache
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Common\obj\Debug\net6.0\BSynchro.Common.AssemblyInfo.cs
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Common\obj\Debug\net6.0\BSynchro.Common.csproj.CoreCompileInputs.cache
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Common\obj\Debug\net6.0\BSynchro.Common.dll
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Common\obj\Debug\net6.0\refint\BSynchro.Common.dll
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Common\obj\Debug\net6.0\BSynchro.Common.pdb
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Common\obj\Debug\net6.0\ref\BSynchro.Common.dll
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Common\bin\Debug\net6.0\BSynchro.Common.runtimeconfig.json
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Common\obj\Debug\net6.0\BSynchro.Common.genruntimeconfig.cache

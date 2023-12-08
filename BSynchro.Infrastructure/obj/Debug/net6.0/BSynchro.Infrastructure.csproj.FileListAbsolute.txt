@@ -1,0 +1,14 @@
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Infrastructure\bin\Debug\net6.0\BSynchro.Infrastructure.deps.json
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Infrastructure\bin\Debug\net6.0\BSynchro.Infrastructure.runtimeconfig.json
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Infrastructure\bin\Debug\net6.0\BSynchro.Infrastructure.dll
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Infrastructure\bin\Debug\net6.0\BSynchro.Infrastructure.pdb
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Infrastructure\obj\Debug\net6.0\BSynchro.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Infrastructure\obj\Debug\net6.0\BSynchro.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Infrastructure\obj\Debug\net6.0\BSynchro.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Infrastructure\obj\Debug\net6.0\BSynchro.Infrastructure.AssemblyInfo.cs
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Infrastructure\obj\Debug\net6.0\BSynchro.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Infrastructure\obj\Debug\net6.0\BSynchro.Infrastructure.dll
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Infrastructure\obj\Debug\net6.0\refint\BSynchro.Infrastructure.dll
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Infrastructure\obj\Debug\net6.0\BSynchro.Infrastructure.pdb
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Infrastructure\obj\Debug\net6.0\BSynchro.Infrastructure.genruntimeconfig.cache
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Infrastructure\obj\Debug\net6.0\ref\BSynchro.Infrastructure.dll
