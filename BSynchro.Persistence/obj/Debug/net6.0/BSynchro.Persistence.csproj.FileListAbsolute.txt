@@ -1,0 +1,17 @@
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Persistence\bin\Debug\net6.0\BSynchro.Persistence.deps.json
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Persistence\bin\Debug\net6.0\BSynchro.Persistence.runtimeconfig.json
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Persistence\bin\Debug\net6.0\BSynchro.Persistence.dll
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Persistence\bin\Debug\net6.0\BSynchro.Persistence.pdb
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Persistence\bin\Debug\net6.0\BSynchro.Domain.dll
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Persistence\bin\Debug\net6.0\BSynchro.Domain.pdb
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Persistence\obj\Debug\net6.0\BSynchro.Persistence.csproj.AssemblyReference.cache
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Persistence\obj\Debug\net6.0\BSynchro.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Persistence\obj\Debug\net6.0\BSynchro.Persistence.AssemblyInfoInputs.cache
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Persistence\obj\Debug\net6.0\BSynchro.Persistence.AssemblyInfo.cs
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Persistence\obj\Debug\net6.0\BSynchro.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Persistence\obj\Debug\net6.0\BSynchro.Persistence.csproj.CopyComplete
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Persistence\obj\Debug\net6.0\BSynchro.Persistence.dll
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Persistence\obj\Debug\net6.0\refint\BSynchro.Persistence.dll
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Persistence\obj\Debug\net6.0\BSynchro.Persistence.pdb
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Persistence\obj\Debug\net6.0\BSynchro.Persistence.genruntimeconfig.cache
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Persistence\obj\Debug\net6.0\ref\BSynchro.Persistence.dll
