@@ -17,5 +17,8 @@ namespace BSynchro.Domain.Models
         [ForeignKey("UserID")]
         public virtual  Customer Customer { get; set; }
         public decimal? Balance { get; set; }
+
+        public virtual ICollection<Transaction> Transactions { get; set; }
+
     }
 }
