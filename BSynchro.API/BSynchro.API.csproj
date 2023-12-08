@@ -21,10 +21,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\BSynchro.Application\BSynchro.Application.csproj" />
     <ProjectReference Include="..\BSynchro.Common\BSynchro.Common.csproj" />
     <ProjectReference Include="..\BSynchro.Domain\BSynchro.Domain.csproj" />

@@ -947,6 +947,35 @@
             "rid": "win"
           }
         }
+      },
+      "BSynchro.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.9",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.9"
+        },
+        "compile": {
+          "bin/placeholder/BSynchro.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BSynchro.Domain.dll": {}
+        }
+      },
+      "BSynchro.Persistence/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "BSynchro.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.9",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.9"
+        },
+        "compile": {
+          "bin/placeholder/BSynchro.Persistence.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BSynchro.Persistence.dll": {}
+        }
       }
     }
   },
@@ -3292,10 +3321,21 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "BSynchro.Domain/1.0.0": {
+      "type": "project",
+      "path": "../BSynchro.Domain/BSynchro.Domain.csproj",
+      "msbuildProject": "../BSynchro.Domain/BSynchro.Domain.csproj"
+    },
+    "BSynchro.Persistence/1.0.0": {
+      "type": "project",
+      "path": "../BSynchro.Persistence/BSynchro.Persistence.csproj",
+      "msbuildProject": "../BSynchro.Persistence/BSynchro.Persistence.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "BSynchro.Persistence >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.9",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.9",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.9",
@@ -3333,7 +3373,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\nicol\\source\\repos\\BSynchro\\BSynchro.Persistence\\BSynchro.Persistence.csproj": {
+              "projectPath": "C:\\Users\\nicol\\source\\repos\\BSynchro\\BSynchro.Persistence\\BSynchro.Persistence.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,4 +1,4 @@
-using chedid.DataBase;
+using BSynchro.Persistence;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

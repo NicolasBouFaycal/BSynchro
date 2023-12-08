@@ -16,6 +16,6 @@ namespace BSynchro.Domain.Models
         public int UserID { get; set; }
         [ForeignKey("UserID")]
         public virtual  Customer Customer { get; set; }
-        public decimal Balance { get; set; }
+        public decimal? Balance { get; set; }
     }
 }
