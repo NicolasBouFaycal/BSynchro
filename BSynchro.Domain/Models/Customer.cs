@@ -16,6 +16,7 @@ namespace BSynchro.Domain.Models
         public string Name { get; set; }
         public string Surname { get; set; }
 
+        public virtual ICollection<Account> Accounts { get; set; }
 
     }
 }
