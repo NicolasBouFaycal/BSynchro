@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace BSynchro.Application.CustomModels
 {
-    public class openAccount
+    public class OpenAccount
     {
-        int customerID { get; set; }
-        decimal initialCredit { get; set; }
+        public int customerID { get; set; }
+        public decimal initialCredit { get; set; }
     }
 }

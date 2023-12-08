@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace BSynchro.Application.Abstraction
 {
-    public interface  IAccountHelper
+    public interface  IAccountsHelper
     {
-        public void AccountCreation(int customerId);
+        public int AccountCreation(int customerId);
 
     }
 }

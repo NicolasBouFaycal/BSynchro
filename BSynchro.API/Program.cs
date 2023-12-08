@@ -1,3 +1,5 @@
+using BSynchro.Application.Abstraction;
+using BSynchro.Application.Services;
 using BSynchro.Persistence;
 using Microsoft.EntityFrameworkCore;
 
@@ -11,6 +13,9 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddTransient<IAccountsHelper, AccountsService>();
+builder.Services.AddTransient<ITransactionsHelper, TransactionsService>();
+
 
 var app = builder.Build();
 

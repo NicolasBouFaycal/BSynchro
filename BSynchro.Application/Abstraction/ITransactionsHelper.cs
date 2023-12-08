@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace BSynchro.Application.Abstraction
 {
-    public interface ITransactionHelper
+    public interface ITransactionsHelper
     {
-        public void TransactionMade(int accountId, int initialCredit);
+        public void TransactionMade(int accountId, decimal initialCredit);
 
     }
 }
