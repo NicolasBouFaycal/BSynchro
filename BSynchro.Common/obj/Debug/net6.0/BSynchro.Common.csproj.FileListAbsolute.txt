@@ -1,4 +1,5 @@
 C:\Users\nicol\source\repos\BSynchro\BSynchro.Common\bin\Debug\net6.0\BSynchro.Common.deps.json
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Common\bin\Debug\net6.0\BSynchro.Common.runtimeconfig.json
 C:\Users\nicol\source\repos\BSynchro\BSynchro.Common\bin\Debug\net6.0\BSynchro.Common.dll
 C:\Users\nicol\source\repos\BSynchro\BSynchro.Common\bin\Debug\net6.0\BSynchro.Common.pdb
 C:\Users\nicol\source\repos\BSynchro\BSynchro.Common\obj\Debug\net6.0\BSynchro.Common.csproj.AssemblyReference.cache
@@ -9,6 +10,5 @@ C:\Users\nicol\source\repos\BSynchro\BSynchro.Common\obj\Debug\net6.0\BSynchro.C
 C:\Users\nicol\source\repos\BSynchro\BSynchro.Common\obj\Debug\net6.0\BSynchro.Common.dll
 C:\Users\nicol\source\repos\BSynchro\BSynchro.Common\obj\Debug\net6.0\refint\BSynchro.Common.dll
 C:\Users\nicol\source\repos\BSynchro\BSynchro.Common\obj\Debug\net6.0\BSynchro.Common.pdb
-C:\Users\nicol\source\repos\BSynchro\BSynchro.Common\obj\Debug\net6.0\ref\BSynchro.Common.dll
-C:\Users\nicol\source\repos\BSynchro\BSynchro.Common\bin\Debug\net6.0\BSynchro.Common.runtimeconfig.json
 C:\Users\nicol\source\repos\BSynchro\BSynchro.Common\obj\Debug\net6.0\BSynchro.Common.genruntimeconfig.cache
+C:\Users\nicol\source\repos\BSynchro\BSynchro.Common\obj\Debug\net6.0\ref\BSynchro.Common.dll
