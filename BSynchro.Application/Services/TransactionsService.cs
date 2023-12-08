@@ -5,14 +5,14 @@ using BSynchro.Persistence;
 
 namespace BSynchro.Application.Services
 {
-    public class TransactionsService : ITransactionHelper
+    public class TransactionsService : ITransactionsHelper
     {
         private readonly ApplicationDbContext _context;
         public TransactionsService(ApplicationDbContext context)
         {
             _context=context;
         }
-        public void TransactionMade(int accountId, int initialCredit)
+        public void TransactionMade(int accountId, decimal initialCredit)
         {
 
             Transaction transaction = new Transaction();

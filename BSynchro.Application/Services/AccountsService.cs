@@ -4,7 +4,7 @@ using BSynchro.Persistence;
 
 namespace BSynchro.Application.Services
 {
-    public class AccountsService : IAccountHelper
+    public class AccountsService : IAccountsHelper
     {
         private readonly ApplicationDbContext _context;
         public AccountsService(ApplicationDbContext context)
@@ -12,12 +12,14 @@ namespace BSynchro.Application.Services
             _context = context;
         }
 
-        public void AccountCreation(int customerId)
+        public int AccountCreation(int customerId)
         {
             Account account = new Account();
-            account.AccountID = customerId;
+            account.UserID = customerId;
             _context.Add(account);  
             _context.SaveChanges();
+            return account.AccountID;
+
         }
     }
 }
