@@ -8,7 +8,9 @@ on:
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
-
+env:
+  AZURE_WEBAPP_NAME: bsynchro
+  AZURE_WEBAPP_PACKAGE_PATH: "./publish"
 jobs:
   build:
 
@@ -27,4 +29,10 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal
     - name: publish
-      run: dotnet publish ./BSynchro.sln --configuration Release --no-build
+      run: dotnet publish ./BSynchro.sln --configuration Release --no-build --output '${{ env.AZURE_WEBAPP_PACKAGE_PATH }}'
+    - name: Deployment
+      uses: azure/webapps-deploy@v2
+      with:
+        app-name: ${{ env.AZURE_WEBAPP_NAME }}
+        publish-profile: ${{ secrets.AZURE_PUBLISH_PROFILE }}
+        package: "${{ env.AZURE_WEBAPP_PACKAGE_PATH }}"
