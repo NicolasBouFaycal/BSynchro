@@ -27,4 +27,4 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal
     - name: publish
-      run: dotnet publish ./CurrentTimeService.sln --configuration Release --no-build
+      run: dotnet publish ./BSynchro.sln --configuration Release --no-build
