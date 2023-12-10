@@ -1,3 +1,4 @@
+using BSynchro.API.Middlewares;
 using BSynchro.Application.Abstraction;
 using BSynchro.Application.Account.Command;
 using BSynchro.Application.Customer.Query;
@@ -39,6 +40,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseMiddleware<CheckRequestMiddleWare>();
 
 app.UseAuthorization();
 app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:4200"));
