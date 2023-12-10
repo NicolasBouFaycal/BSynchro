@@ -1,6 +1,9 @@
 ﻿using BSynchro.Application.Abstraction;
+using BSynchro.Application.Account.Command;
+using BSynchro.Application.Customer.Query;
 using BSynchro.Application.CustomModels;
 using BSynchro.Persistence;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,52 +13,40 @@ namespace BSynchro.API.Controllers
     [ApiController]
     public class AccountsController : ControllerBase
     {
-        private readonly IAccountsHelper _accountsHelper;
-        private readonly ITransactionsHelper _transactionsHelper;
+        private readonly ICustomerHelper _customerHelper;
+        private readonly IMediator _mediator;
+
         private readonly ApplicationDbContext _context;
-        public AccountsController(ApplicationDbContext context,IAccountsHelper accountsHelper, ITransactionsHelper transactionsHelper)
+        public AccountsController(IMediator mediator,ApplicationDbContext context, ICustomerHelper customerHelper)
         {
-            _accountsHelper = accountsHelper;
-            _transactionsHelper = transactionsHelper;
-            _context = context; 
+            _customerHelper= customerHelper;
+            _context = context;
+            _mediator= mediator;
         }
 
 
         [HttpPost("OpenAccount")]
-        public  IActionResult OpenAccount([FromBody]OpenAccount openAccount)
+        public async  Task<IActionResult> OpenAccount([FromBody]OpenAccount openAccount)
         {
-             var accountId=_accountsHelper.AccountCreation(openAccount.customerID);
-
-            if (openAccount.initialCredit > 0)
-            {
-                _transactionsHelper.TransactionMade(accountId, openAccount.initialCredit);
-            }
-
-            return Ok();
+            var result = await _mediator.Send(new OpenAccountCommand(openAccount.customerID,openAccount.initialCredit));
+            return Ok(new { message = result });
         }
 
         [HttpGet("UserInfo")]
-        public IActionResult UserInfo([FromQuery]int customerId)
+        public async Task<IActionResult> UserInfo([FromQuery] int customerId)
         {
-            var userInformation = _context.Customer
-                .Where(c => c.UserID == customerId)
-                .Include(c => c.Accounts)
-                    .ThenInclude(a => a.Transactions)
-                .Select(c => new
-                {
-                    c.Name,
-                    c.Surname,
-                    Balance = c.Accounts.Sum(a => a.Balance),
-                    Transactions = c.Accounts
-                        .SelectMany(a => a.Transactions.Select(t => new {t.AccountID, t.Amount, t.Timestamp }))
-                })
-                .FirstOrDefault();
-            if (userInformation == null)
-            {
-                return NotFound(); 
-            }
+            var result = await _mediator.Send(new UserInfoQuery(customerId));
 
-            return Ok(userInformation);
+            if (result == null)
+            {
+                return Ok(new { message = "Error Check customer Id " });
+
+            }
+            else
+            {
+                return Ok( result );
+
+            }            
         }
     }
 }
