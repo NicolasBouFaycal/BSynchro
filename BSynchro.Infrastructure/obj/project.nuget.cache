@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "fqQJ0JXMflIqgtS40+WTwFHzlHGPlC2inzaipfatEiM4QASJhpRJeyI0MqwjqkpPvgkxOGKnQaqnR/8Wk+1+BA==",
+  "dgSpecHash": "iAtc6BZR5ZCcVSwReiVyAAJp3Pz4ILzPchSEU60kp8Fgdv8dQstmfrYJRSwlAhmKPYpq0ahqyRb6J+EfHAHE/Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\nicol\\source\\repos\\BSynchro\\BSynchro.Infrastructure\\BSynchro.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nicol\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\nicol\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\nicol\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "C:\\Users\\nicol\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\nicol\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\nicol\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.2\\microsoft.data.sqlclient.5.0.2.nupkg.sha512",

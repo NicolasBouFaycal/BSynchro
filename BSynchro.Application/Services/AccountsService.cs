@@ -1,5 +1,4 @@
 ﻿using BSynchro.Application.Abstraction;
-using BSynchro.Domain.Models;
 using BSynchro.Persistence;
 
 namespace BSynchro.Application.Services
@@ -14,7 +13,7 @@ namespace BSynchro.Application.Services
 
         public int AccountCreation(int customerId)
         {
-            Account account = new Account();
+            BSynchro.Domain.Models.Account account = new BSynchro.Domain.Models.Account();
             account.UserID = customerId;
             _context.Add(account);  
             _context.SaveChanges();
