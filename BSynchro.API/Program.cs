@@ -21,7 +21,13 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddCors();
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowOrigin",
+        builder => builder.WithOrigins("http://localhost:4200") // Add the frontend origin here
+            .AllowAnyHeader()
+            .AllowAnyMethod());
+});
 builder.Services.AddMediatR(Assembly.GetExecutingAssembly());
 builder.Services.AddTransient<IRequestHandler<OpenAccountCommand, string>, OpenAccountHandler>();
 builder.Services.AddTransient<IRequestHandler<UserInfoQuery, UserInfoResponse>, UserInfoHandler>();
@@ -40,10 +46,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseMiddleware<CheckRequestMiddleWare>();
-
 app.UseAuthorization();
-app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:4200"));
+app.UseCors("AllowOrigin");
+app.UseMiddleware<CheckRequestMiddleWare>();
 app.MapControllers();
 
 app.Run();

@@ -4,6 +4,7 @@ using BSynchro.Application.Customer.Query;
 using BSynchro.Application.CustomModels;
 using BSynchro.Persistence;
 using MediatR;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -11,6 +12,7 @@ namespace BSynchro.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [EnableCors("AllowOrigin")]
     public class AccountsController : ControllerBase
     {
         private readonly ICustomerHelper _customerHelper;
