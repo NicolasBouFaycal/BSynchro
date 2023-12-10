@@ -8,3 +8,4 @@ Set up the Project :
 7) The Db tables will be created then input some data to the "Customer" table from  Microsoft SQL Server Management Studio   (right click on the table then edit top 200 rows )
 8) Now you can run the Backend Project and test the api's from swagger .
 9) For Frontend, please find the Set up of angular project in README.md of the master branch in BSynchro-frontend Repository
+10) All the Features and the Bonus are done ! 
